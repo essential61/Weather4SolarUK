@@ -1,4 +1,4 @@
--- created 2025-05-08 11:47:58.208731
+-- created 2025-05-08 22:52:57.484723
 INSERT INTO forecasts (starttime, sky) VALUES ('2025-05-09T00:00 Europe/London', 'Clear night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2025-05-09T01:00 Europe/London', 'Clear night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2025-05-09T02:00 Europe/London', 'Clear night');
