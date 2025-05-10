@@ -9,7 +9,7 @@ jobs:
     steps:
 
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content
+        uses: actions/checkout@v4 # checkout the repository content
 
       - name: setup python
         uses: actions/setup-python@v5
@@ -30,11 +30,11 @@ jobs:
           compgen -G *${TWOMONTHSAGO}-??.sql && tar -rf archive${TWOMONTHSAGO}.tar *${TWOMONTHSAGO}-??.sql --remove-files
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add -a forecasts/
+          git add forecasts/
           git commit -m "Add new SQL file"
 
       - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@v0.8.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
