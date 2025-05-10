@@ -27,7 +27,7 @@ jobs:
       - name: Commit any new SQL files generated
         run: |
           export TWOMONTHSAGO=$(date --date="$(date +%Y-%m-15) -2 month" +"%Y-%m")
-          compgen -G *${TWOMONTHSAGO}-??.sql && tar -rf archive${TWOMONTHSAGO}.tar *${TWOMONTHSAGO}-??.sql --remove-files
+          compgen -G forecasts/*${TWOMONTHSAGO}-??.sql && tar -rf forecasts/archive${TWOMONTHSAGO}.tar forecasts/*${TWOMONTHSAGO}-??.sql --remove-files
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add forecasts/
