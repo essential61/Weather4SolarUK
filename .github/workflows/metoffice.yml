@@ -21,11 +21,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute py script # run metoffice.py
+      - name: execute py script # run metoffice.py with 'place_code' parameter
         run: python metoffice.py gcpkmp259#
 
       - name: Commit any new SQL files generated
         run: |
+          export TWOMONTHSAGO=$(date --date="$(date +%Y-%m-15) -2 month" +"%Y-%m")
+          compgen -G *${TWOMONTHSAGO}-??.sql && tar -rf archive${TWOMONTHSAGO}.tar *${TWOMONTHSAGO}-??.sql --remove-files
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add -a forecasts/

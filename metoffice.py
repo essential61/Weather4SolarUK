@@ -7,7 +7,7 @@ import os
 
 # The script starts here.
 if __name__ == '__main__':
-    # run as 'python MetOffice.py <place_code>'
+    # run as 'python metoffice.py <place_code>'
     # Use the place_code value for your location
     # To find your place code, look at the url of the search result for your location returned from https://www.metoffice.gov.uk/
     # i.e. https://weather.metoffice.gov.uk/forecast /{place_code}?date=YYYY-mm-dd
