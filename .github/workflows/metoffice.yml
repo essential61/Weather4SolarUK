@@ -31,7 +31,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add forecasts/
-          git commit -m "Add new SQL file"
+          git commit -m "Add new SQL forecast file for $(date -d 'tomorrow' -I)"
 
       - name: push changes
         uses: ad-m/github-push-action@v0.8.0
