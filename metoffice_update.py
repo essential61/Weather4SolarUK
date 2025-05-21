@@ -26,6 +26,6 @@ if __name__ == '__main__':
         with open(f'forecasts/forecast{today}.sql', 'r') as insert_file:
             insert_file_text = insert_file.read()
         if insert_statement not in insert_file_text:
-            update_statement = insert_statement.replace('INSERT', 'UPDATE')
+            update_statement = f'UPDATE forecasts SET sky = \'{next_weather}\' WHERE startime = \'{next_hour}\';'
             with open(f'forecasts/update{today}.sql', 'a') as update_file:
                 update_file.write(f'{update_statement}\n')
