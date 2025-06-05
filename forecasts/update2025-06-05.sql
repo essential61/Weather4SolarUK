@@ -7,3 +7,4 @@ UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-06-05T15:00 Europe
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-06-05T15:00 Europe/London';
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-06-05T16:00 Europe/London';
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-06-05T20:00 Europe/London';
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-06-05T21:00 Europe/London';
