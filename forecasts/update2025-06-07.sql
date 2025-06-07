@@ -7,3 +7,4 @@ UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-06-07T13:00 Euro
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-06-07T15:00 Europe/London';
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-06-07T15:00 Europe/London';
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-06-07T16:00 Europe/London';
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-06-07T17:00 Europe/London';
