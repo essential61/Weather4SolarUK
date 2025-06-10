@@ -1,0 +1,25 @@
+-- created 2025-06-10 22:53:12.212655
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T00:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T01:00 Europe/London', 'Clear night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T02:00 Europe/London', 'Clear night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T03:00 Europe/London', 'Clear night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T04:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T05:00 Europe/London', 'Sunny intervals');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T06:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T07:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T08:00 Europe/London', 'Sunny intervals');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T09:00 Europe/London', 'Sunny intervals');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T10:00 Europe/London', 'Sunny intervals');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T11:00 Europe/London', 'Sunny intervals');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T12:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T13:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T14:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T15:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T16:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T17:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T18:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T19:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T20:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T21:00 Europe/London', 'Clear night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T22:00 Europe/London', 'Clear night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-06-11T23:00 Europe/London', 'Clear night');
