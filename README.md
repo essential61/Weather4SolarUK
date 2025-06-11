@@ -17,16 +17,17 @@ The output of both scripts is a SQL batch file to populate rows of a table as de
      CONSTRAINT forecasts_pk PRIMARY KEY (starttime)
     );
 
-###### Location-specific code
+#### Location-specific code
 
-###### Repo Permissions
-
+#### Repo Permissions
+In order for the scripts to update the repo with the latest weather forecast, the GITHUB_TOKEN requires write permission on the repository.
 ![permissions](githubaction.png)
 
 
-###### Raw file for download
-
-###### crontab accuracy
+#### Raw file for download
+To individually download any generated files, you can select the 'raw' URL for the file.
+#### crontab accuracy
+Scheduling when the github actions run is specified using a crontab-style syntax. Times are specified in UTC. Note that the actual runtime for the action can differ from the specified time by a few minutes.
 
 
 
