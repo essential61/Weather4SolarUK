@@ -21,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute py script # run metoffice.py with 'place_code' parameter
+      - name: execute py script # run metoffice_update.py with 'place_code' parameter
         run: python metoffice_update.py gcpkmp259#
 
       - name: Commit any new SQL files generated
