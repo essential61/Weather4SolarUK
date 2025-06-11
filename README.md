@@ -11,11 +11,11 @@ The second script runs hourly during daylight to fetch the forecast for the next
 
 The output of both scripts is a SQL batch file to populate rows of a table as described below.
 
-CREATE TABLE public.forecasts (
-	starttime timestamptz NOT NULL,
-	sky text NULL,
-	CONSTRAINT forecasts_pk PRIMARY KEY (starttime)
-);
+    CREATE TABLE public.forecasts (
+	 starttime timestamptz NOT NULL,
+     sky text NULL,```
+     CONSTRAINT forecasts_pk PRIMARY KEY (starttime)
+    );
 
 ###### Location-specific code
 
