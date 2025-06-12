@@ -1,7 +1,7 @@
 # Weather4SolarUK
 This repo hosts a pair of python scripts (using the beautiful soup library) to scrape place-specific, weather forecast information from the UK met office website.
 
-As the owner of a Solar installation, I am specifically interested in how likely it is to be sunny or overcast, where I live, for the following day as well as correlate historical weather forecasts against photo-voltaic energy produced.
+As the owner of a Solar installation, I am specifically interested in how likely it is to be sunny or overcast where I live, for the following day as well as be able to correlate historical weather forecasts against photo-voltaic energy produced.
 
 Each script is run as GitHub action using time of day as the trigger.
 
