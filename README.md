@@ -40,7 +40,7 @@ In order for the scripts to update the repo with the latest weather forecast, th
 
 
 #### Raw file for download
-To individually download any generated files, you can select the 'raw' URL for the file i.e https://raw.github.com/...
+To individually download any generated files, you can select the 'raw' URL for the file i.e ```https://raw.github.com/...```
 
 ![raw](raw.png)
 #### crontab accuracy
