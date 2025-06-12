@@ -43,7 +43,7 @@ In order for the scripts to update the repo with the latest weather forecast, th
 To individually download any generated files, you can select the 'raw' URL for the file i.e ```https://raw.github.com/...```
 ![raw](raw.png)
 #### crontab accuracy
-Scheduling when the github actions run is specified using a crontab-style syntax. Times are specified in UTC. Note that the actual runtime for the action can differ from the specified time by a several minutes.
+Scheduling when the github actions run is specified using a crontab-style syntax. Times are specified in UTC. Note that the actual runtime for the action can differ from the scheduled time by a several minutes.
 
 
 
