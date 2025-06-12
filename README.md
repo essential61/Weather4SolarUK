@@ -26,7 +26,7 @@ e.g.
 
 and
 
-    - name: execute py script # run metoffice.py with 'place_code' parameter
+    - name: execute py script # run metoffice_update.py with 'place_code' parameter
     run: python metoffice_update.py <your place-code>`
 
 To find your place code, look at the url of the search result for your location returned from https://www.metoffice.gov.uk/
@@ -40,9 +40,10 @@ In order for the scripts to update the repo with the latest weather forecast, th
 
 
 #### Raw file for download
-To individually download any generated files, you can select the 'raw' URL for the file.
+To individually download any generated files, you can select the 'raw' URL for the file i.e ```https://raw.github.com/...```
+![raw](raw.png)
 #### crontab accuracy
-Scheduling when the github actions run is specified using a crontab-style syntax. Times are specified in UTC. Note that the actual runtime for the action can differ from the specified time by a few minutes.
+Scheduling when the github actions run is specified using a crontab-style syntax. Times are specified in UTC. Note that the actual runtime for the action can differ from the specified time by a several minutes.
 
 
 
