@@ -13,7 +13,7 @@ The output of the scripts is a SQL batch file that either INSERTs or UPDATEs row
 
     CREATE TABLE public.forecasts (
 	 starttime timestamptz NOT NULL,
-     sky text NULL,```
+     sky text NULL,
      CONSTRAINT forecasts_pk PRIMARY KEY (starttime)
     );
 
