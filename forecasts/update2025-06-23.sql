@@ -5,3 +5,4 @@ UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-06-23T15:00
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-06-23T15:00 Europe/London';
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-06-23T16:00 Europe/London';
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-06-23T17:00 Europe/London';
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-06-23T18:00 Europe/London';
