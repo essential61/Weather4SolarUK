@@ -18,7 +18,7 @@ The output of the scripts is a SQL batch file that either INSERTs or UPDATEs row
     );
 
 #### Location-specific code
-The Python scripts are each passed the code for the specific location to fetch weather data for as a command-line parameter. If you wish to clone this repo, you are most likely to want to fetch forecasts for your specific region. You will need to edit the yml files in .github/workflows
+The Python scripts are each passed the place_code for the specific location to fetch weather data for as a command-line parameter. If you wish to clone this repo, you are most likely to want to fetch forecasts for your region. You will need to edit the yml files in .github/workflows
 e.g.
 
     - name: execute py script # run metoffice.py with 'place_code' parameter
@@ -44,7 +44,7 @@ To individually download any generated files, you can select the 'raw' URL for t
 
 ![raw](raw.png)
 #### crontab accuracy
-Scheduling when the github actions run is specified using a crontab-style syntax. Times are specified in UTC. Note that the actual runtime for the action can differ from the scheduled time by a several minutes.
+Scheduling when the github actions should run is set using a crontab-style syntax. Times are specified in UTC. Note that the actual runtime for the action can differ from the scheduled time by a several minutes.
 
 
 
