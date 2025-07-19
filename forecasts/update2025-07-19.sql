@@ -6,3 +6,4 @@ UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-07-19T13:00
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2025-07-19T15:00 Europe/London';
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2025-07-19T15:00 Europe/London';
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-07-19T16:00 Europe/London';
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-07-19T21:00 Europe/London';
