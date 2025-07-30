@@ -9,3 +9,4 @@ UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-07-30T15:00 Europe
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-07-30T16:00 Europe/London';
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-07-30T19:00 Europe/London';
 UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2025-07-30T21:00 Europe/London';
+UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2025-07-30T21:00 Europe/London';
