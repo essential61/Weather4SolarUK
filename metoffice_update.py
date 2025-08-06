@@ -17,15 +17,49 @@ if __name__ == '__main__':
     met_html = BeautifulSoup(met_response.content, 'html.parser')
     today = datetime.today().strftime('%Y-%m-%d')
     today_forecast = met_html.find('div', id=today)
-    # weather for next hour
-    next_hour = f'{today}T{today_forecast.find(class_='time-step-hours').text} Europe/London'
-    next_weather = today_forecast.find(class_='weather-symbol-icon').attrs['title']
-    insert_statement = f'INSERT INTO forecasts (starttime, sky) VALUES (\'{next_hour}\', \'{next_weather}\');'
+
+    # get weather for today
+    time_steps = [time_step.text.replace('\r', '').replace('\n', '') for time_step in
+                  today_forecast.find_all(class_='time-step-hours')]
+    weather_symbols = today_forecast.find_all(class_='weather-symbol-icon')
+    today_weather = [(f'{today}T{t} Europe/London', weather_symbols[i].attrs['title']) for i, t in
+                    enumerate(time_steps)]
+
+    # open insert file
     insertfilepath = f'forecasts/forecast{today}.sql'
+    insert_file_text = ""
     if os.path.exists(insertfilepath):
-        with open(f'forecasts/forecast{today}.sql', 'r') as insert_file:
+        with open(insertfilepath, 'r') as insert_file:
             insert_file_text = insert_file.read()
+    else:
+        sys.exit()
+
+    # open existing update file (if exists)
+    updatefilepath = f'forecasts/update{today}.sql'
+    old_update_file_text = ""
+    if os.path.exists(updatefilepath):
+        with open(updatefilepath, 'r') as update_file:
+            old_update_file_text = update_file.read()
+
+    # keep any updates in existing update file that have already passed
+    old_update_file_text_lines = old_update_file_text.splitlines(keepends = True)
+    new_update_file_text = ""
+    current_time = time_steps[0].split(':')[0]
+    for current_line in old_update_file_text_lines:
+        line_time = current_line.split('T')[-1].split(':')[0]
+        if line_time >= current_time:
+            break
+        new_update_file_text += current_line
+
+    # loop through today weather
+    for timeperiod in today_weather:
+        insert_statement = f'INSERT INTO forecasts (starttime, sky) VALUES (\'{timeperiod[0]}\', \'{timeperiod[1]}\');'
         if insert_statement not in insert_file_text:
-            update_statement = f'UPDATE forecasts SET sky = \'{next_weather}\' WHERE starttime = \'{next_hour}\';'
-            with open(f'forecasts/update{today}.sql', 'a') as update_file:
-                update_file.write(f'{update_statement}\n')
+            update_statement = f'UPDATE forecasts SET sky = \'{timeperiod[1]}\' WHERE starttime = \'{timeperiod[0]}\'; \n'
+            new_update_file_text += update_statement
+
+    # write if changed
+    if new_update_file_text != old_update_file_text:
+        with open(updatefilepath, 'w') as update_file:
+            update_file.write(new_update_file_text)
+
