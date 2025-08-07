@@ -7,7 +7,7 @@ Each script is run as GitHub action using time of day as the trigger.
 
 The first script runs once a day and fetches the forecast for the following day.
 
-The second script runs hourly during daylight to fetch the forecast for the next hour and update if different from the original forecast.
+The second script runs hourly during daylight to fetch the forecast for the current day and update if different from the original forecast.
 
 The output of the scripts is a SQL batch file that either INSERTs or UPDATEs rows of a table as described below.
 
