@@ -32,6 +32,12 @@ if __name__ == '__main__':
         with open(insertfilepath, 'r') as insert_file:
             insert_file_text = insert_file.read()
     else:
+        # not expecting this code to execute
+        with open(insertfilepath, 'w') as file_handler:
+            file_handler.write(f'-- created {today}\n')
+            for timeperiod in today_weather:
+                file_handler.write(
+                    f'INSERT INTO forecasts (starttime, sky) VALUES (\'{timeperiod[0]}\', \'{timeperiod[1]}\');\n')
         sys.exit()
 
     # open existing update file (if exists)
