@@ -5,3 +5,4 @@ UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-16T19:00
 UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-08-16T20:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-08-16T21:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-08-16T22:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-08-16T23:00 Europe/London'; 
