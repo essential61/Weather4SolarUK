@@ -4,10 +4,11 @@ UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T08:00
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T09:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T10:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T11:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T12:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-08-22T12:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T13:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T14:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T15:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T16:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T18:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2025-08-22T19:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-08-22T21:00 Europe/London'; 
