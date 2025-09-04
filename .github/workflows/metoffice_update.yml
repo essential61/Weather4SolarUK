@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env: 
+        UV_SYSTEM_PYTHON: 1
     steps:
 
       - name: checkout repo content
@@ -20,7 +22,7 @@ jobs:
         uses: astral-sh/setup-uv@v6
 
       - name: install python packages
-        run: uv --system pip install -r requirements.txt
+        run: uv pip install -r requirements.txt
 
       - name: execute py script # run metoffice_update.py with 'place_code' parameter
         run: python metoffice_update.py gcpkmp259#
