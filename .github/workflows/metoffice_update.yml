@@ -20,7 +20,7 @@ jobs:
         uses: astral-sh/setup-uv@v6
 
       - name: install python packages
-        run: uv pip install -r requirements.txt
+        run: uv --system pip install -r requirements.txt
 
       - name: execute py script # run metoffice_update.py with 'place_code' parameter
         run: python metoffice_update.py gcpkmp259#
