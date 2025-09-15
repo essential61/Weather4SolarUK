@@ -3,6 +3,7 @@ UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2025-09-15T07:0
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2025-09-15T08:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2025-09-15T09:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2025-09-15T11:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light shower night' WHERE starttime = '2025-09-15T19:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2025-09-15T21:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2025-09-15T22:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2025-09-15T23:00 Europe/London'; 
