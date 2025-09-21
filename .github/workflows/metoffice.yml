@@ -1,7 +1,7 @@
 name: Fetch Met Office Forecast
 on:
   schedule:
-    - cron: "47 22 * * *"
+    - cron: "31 8 * * *"
 
 jobs:
   build:
