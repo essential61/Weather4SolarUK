@@ -1,13 +1,13 @@
 UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-10-03T07:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T08:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T09:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T10:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-10-03T10:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T11:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T12:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T13:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T14:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T15:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-10-03T16:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T16:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T18:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-10-03T19:00 Europe/London'; 
