@@ -3,4 +3,5 @@ UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-10-12T07:00 Europe/Lon
 UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-10-12T08:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-10-12T09:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-10-12T10:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-10-12T18:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-10-12T17:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-10-12T18:00 Europe/London'; 
