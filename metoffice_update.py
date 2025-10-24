@@ -12,15 +12,16 @@ if __name__ == '__main__':
     # To find your place code, look at the url of the search result for your location returned from https://www.metoffice.gov.uk/
     # i.e. https://weather.metoffice.gov.uk/forecast /{place_code}?date=YYYY-mm-dd
     place_code = sys.argv[1]
-    url = f'https://weather.metoffice.gov.uk/forecast/{place_code}?new-design=false#'
+    url = f'https://weather.metoffice.gov.uk/forecast/{place_code}'
     met_response = requests.get(url)
     met_html = BeautifulSoup(met_response.content, 'html.parser')
     today = datetime.today().strftime('%Y-%m-%d')
-    today_forecast = met_html.find('div', id=today)
-
+    today_id = f'main-forecast-table-{today}'
+    today_forecast = met_html.find('div', id=today_id)
     # get weather for today
-    time_steps = [time_step.text.replace('\r', '').replace('\n', '') for time_step in
-                  today_forecast.find_all(class_='time-step-hours')]
+    time_step_container = today_forecast.find('tr', class_='step-time heading-s')
+    time_steps = [datetime.strptime(time_step.span.string.replace('Midnight', '12am').replace('Midday', '12pm'),'%-I%p').strftime('%H:%M')
+                  for time_step in time_step_container.find_all('td')]
     weather_symbols = today_forecast.find_all(class_='weather-symbol-icon')
     today_weather = [(f'{today}T{t} Europe/London', weather_symbols[i].attrs['title']) for i, t in
                     enumerate(time_steps)]
