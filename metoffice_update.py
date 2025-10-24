@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # To find your place code, look at the url of the search result for your location returned from https://www.metoffice.gov.uk/
     # i.e. https://weather.metoffice.gov.uk/forecast /{place_code}?date=YYYY-mm-dd
     place_code = sys.argv[1]
-    url = f'https://weather.metoffice.gov.uk/forecast/{place_code}'
+    url = f'https://weather.metoffice.gov.uk/forecast/{place_code}?new-design=false#'
     met_response = requests.get(url)
     met_html = BeautifulSoup(met_response.content, 'html.parser')
     today = datetime.today().strftime('%Y-%m-%d')
