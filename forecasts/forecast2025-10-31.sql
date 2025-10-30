@@ -1,0 +1,25 @@
+-- created 2025-10-30 22:40:50.759761
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T00:00 Europe/London', 'Heavy rain');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T01:00 Europe/London', 'Light shower night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T02:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T03:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T04:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T05:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T06:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T07:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T08:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T09:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T10:00 Europe/London', 'Heavy rain');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T11:00 Europe/London', 'Heavy rain');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T12:00 Europe/London', 'Light shower day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T13:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T14:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T15:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T16:00 Europe/London', 'Light shower day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T17:00 Europe/London', 'Light shower night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T18:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T19:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T20:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T21:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T22:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2025-10-31T23:00 Europe/London', 'Light shower night');
