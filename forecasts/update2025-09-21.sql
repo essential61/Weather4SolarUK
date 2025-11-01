@@ -1,5 +1,0 @@
-UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-09-21T11:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-09-21T12:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-09-21T13:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-09-21T14:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-09-21T15:00 Europe/London'; 
