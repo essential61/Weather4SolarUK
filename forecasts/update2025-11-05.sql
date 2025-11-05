@@ -4,3 +4,4 @@ UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-11-05T07:00 Euro
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-11-05T10:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2025-11-05T14:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-11-05T16:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-11-05T18:00 Europe/London'; 
