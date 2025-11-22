@@ -2,11 +2,10 @@ UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-11-22T07:00 Euro
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-11-22T08:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-11-22T09:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-11-22T10:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-11-22T13:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-11-22T14:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-11-22T15:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-11-22T16:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-11-22T17:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-11-22T21:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-11-22T22:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-11-22T23:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-11-22T21:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Fog' WHERE starttime = '2025-11-22T22:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Fog' WHERE starttime = '2025-11-22T23:00 Europe/London'; 
