@@ -7,3 +7,4 @@ UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2025-11-28T17:00 Eur
 UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2025-11-28T18:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-11-28T21:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-11-28T22:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-11-28T23:00 Europe/London'; 
