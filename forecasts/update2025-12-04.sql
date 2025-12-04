@@ -4,8 +4,7 @@ UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-12-04T08:00 Euro
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-12-04T09:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-12-04T10:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-12-04T11:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-12-04T12:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-12-04T12:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-12-04T13:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-12-04T14:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-12-04T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2025-12-04T18:00 Europe/London'; 
