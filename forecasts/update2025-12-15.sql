@@ -3,6 +3,5 @@ UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-12-15T13:00 Europe/L
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-12-15T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-12-15T18:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-12-15T19:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2025-12-15T20:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-12-15T20:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower night' WHERE starttime = '2025-12-15T21:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-12-15T23:00 Europe/London'; 
