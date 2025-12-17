@@ -1,0 +1,11 @@
+UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-12-17T05:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-12-17T06:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-12-17T07:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2025-12-17T08:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-12-17T12:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-12-17T13:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-12-17T14:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-12-17T15:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2025-12-17T17:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2025-12-17T18:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2025-12-17T22:00 Europe/London'; 
