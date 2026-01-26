@@ -3,4 +3,5 @@ UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-01-26T10:00 Europe/Lon
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-01-26T18:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-01-26T19:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-01-26T20:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-01-26T21:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-01-26T23:00 Europe/London'; 
