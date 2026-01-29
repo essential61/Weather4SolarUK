@@ -17,8 +17,9 @@ if __name__ == '__main__':
     met_html = BeautifulSoup(met_response.content, 'html.parser')
     today = datetime.today()
     tomorrow = (today + timedelta(1)).strftime('%Y-%m-%d')
-    tomorrow_id = f'main-forecast-table-{tomorrow}'
-    tomorrow_forecast = met_html.find('div', id=tomorrow_id)
+    #tomorrow_id = f'main-forecast-table-{tomorrow}'
+    #tomorrow_forecast = met_html.find('div', id=tomorrow_id)
+    tomorrow_forecast = met_html.find('table', attrs={"class": "forecast-table hourly-table", "data-date": tomorrow})
     time_step_container = tomorrow_forecast.find('tr', class_='step-time heading-s')
     time_steps = [datetime.strptime(time_step.span.string.replace('Midnight', '12am').replace('Midday', '12pm'),'%-I%p').strftime('%H:%M')
                   for time_step in time_step_container.find_all('td')]
