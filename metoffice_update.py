@@ -16,10 +16,9 @@ if __name__ == '__main__':
     met_response = requests.get(url)
     met_html = BeautifulSoup(met_response.content, 'html.parser')
     today = datetime.today().strftime('%Y-%m-%d')
-    today_id = f'main-forecast-table-{today}'
-    today_forecast = met_html.find('div', id=today_id)
+    todays_forecast_table = met_html.find('table', attrs={"class": "forecast-table hourly-table", "data-date": today})
     # get weather for today
-    time_step_container = today_forecast.find('tr', class_='step-time heading-s')
+    time_step_container = todays_forecast_table.find('tr', class_='step-time heading-s')
     time_steps = [datetime.strptime(time_step.span.string.replace('Midnight', '12am').replace('Midday', '12pm'),'%-I%p').strftime('%H:%M')
                   for time_step in time_step_container.find_all('td')]
     weather_symbols = today_forecast.find_all(class_='weather-symbol-icon')
