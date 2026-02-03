@@ -5,8 +5,6 @@ UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-02-03T13:00 Euro
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-02-03T14:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-02-03T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-02-03T18:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-02-03T19:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-02-03T20:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-02-03T21:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-02-03T22:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-02-03T23:00 Europe/London'; 
