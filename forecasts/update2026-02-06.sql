@@ -1,0 +1,3 @@
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-02-06T11:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-02-06T12:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2026-02-06T20:00 Europe/London'; 
