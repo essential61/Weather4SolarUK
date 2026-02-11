@@ -3,6 +3,7 @@ UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-02-11T07:00 Euro
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-02-11T08:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-02-11T09:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-02-11T10:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-02-11T13:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-02-11T16:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-02-11T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-02-11T18:00 Europe/London'; 
