@@ -21,7 +21,7 @@ if __name__ == '__main__':
     #tomorrow_forecast = met_html.find('div', id=tomorrow_id)
     tomorrow_forecast = met_html.find('table', attrs={"class": "forecast-table hourly-table", "data-date": tomorrow})
     time_step_container = tomorrow_forecast.find('tr', class_='step-time heading-s')
-    time_steps = [datetime.strptime(time_step.span.string.replace('Midnight', '12am').replace('Midday', '12pm'),'%-I%p').strftime('%H:%M')
+    time_steps = [datetime.strptime(time_step.string.replace('Midnight', '12am').replace('Midday', '12pm'),'%-I%p').strftime('%H:%M')
                   for time_step in time_step_container.find_all('td')]
     weather_symbols = tomorrow_forecast.find_all(class_='weather-symbol-icon')
     tomorrow_weather = [(f'{tomorrow}T{t} Europe/London', weather_symbols[i].attrs['title']) for i, t in
