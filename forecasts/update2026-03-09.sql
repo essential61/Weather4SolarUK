@@ -9,8 +9,8 @@ UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T15:00 Europe
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T16:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T18:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T19:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T20:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-09T21:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-09T19:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-09T20:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T21:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T22:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-03-09T23:00 Europe/London'; 
