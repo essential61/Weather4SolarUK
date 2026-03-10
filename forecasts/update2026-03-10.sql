@@ -2,6 +2,7 @@ UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-10T05:00 Europe/L
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-10T06:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-10T07:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-10T13:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-10T16:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-10T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-10T18:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-03-10T19:00 Europe/London'; 
