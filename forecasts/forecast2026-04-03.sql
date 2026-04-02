@@ -1,0 +1,25 @@
+-- created 2026-04-02 22:59:45.719357
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T00:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T01:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T02:00 Europe/London', 'Light rain');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T03:00 Europe/London', 'Light rain');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T04:00 Europe/London', 'Light rain');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T05:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T06:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T07:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T08:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T09:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T10:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T11:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T12:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T13:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T14:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T15:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T16:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T17:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T18:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T19:00 Europe/London', 'Overcast');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T20:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T21:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T22:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-04-03T23:00 Europe/London', 'Partly cloudy night');
