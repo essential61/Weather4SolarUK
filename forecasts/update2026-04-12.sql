@@ -7,5 +7,4 @@ UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T16:0
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T19:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower night' WHERE starttime = '2026-04-12T20:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Light shower night' WHERE starttime = '2026-04-12T21:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2026-04-12T23:00 Europe/London'; 
