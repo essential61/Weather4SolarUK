@@ -1,9 +1,10 @@
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-04-12T08:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T12:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T13:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-04-12T14:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T14:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T15:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy shower day' WHERE starttime = '2026-04-12T16:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T17:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy shower day' WHERE starttime = '2026-04-12T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Heavy shower day' WHERE starttime = '2026-04-12T18:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-04-12T19:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Light shower night' WHERE starttime = '2026-04-12T20:00 Europe/London'; 
