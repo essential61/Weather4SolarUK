@@ -35,7 +35,7 @@ jobs:
           test -z "$(git status --porcelain forecasts/)" || git commit -m "Update SQL forecast file, $(date)"
 
       - name: push changes
-        uses: ad-m/github-push-action@v0.8.0
+        uses: ad-m/github-push-action@v1.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
