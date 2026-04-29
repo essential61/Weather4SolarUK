@@ -19,7 +19,7 @@ jobs:
           python-version: '3.13' # install suitable python version
           
       - name: Install the latest version of uv
-        uses: astral-sh/setup-uv@v8
+        uses: astral-sh/setup-uv@v8.1.0
         
       - name: install python packages
         run: uv pip install -r requirements.txt
