@@ -1,0 +1,6 @@
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-07T10:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-07T11:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-07T12:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-07T13:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-07T14:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-07T15:00 Europe/London'; 
