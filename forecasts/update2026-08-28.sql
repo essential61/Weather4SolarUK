@@ -1,0 +1,15 @@
+UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2026-08-28T01:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2026-08-28T02:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2026-08-28T03:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2026-08-28T04:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Clear night' WHERE starttime = '2026-08-28T05:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-28T06:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-28T07:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-08-28T08:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-08-28T12:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-08-28T13:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-08-28T14:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-08-28T16:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-08-28T17:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-08-28T18:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-08-28T19:00 Europe/London'; 
