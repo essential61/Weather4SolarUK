@@ -15,4 +15,4 @@ UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-08-29T19:00
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-08-29T20:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-08-29T21:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-08-29T22:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-08-29T23:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-08-29T23:00 Europe/London'; 
