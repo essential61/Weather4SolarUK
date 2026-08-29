@@ -1,0 +1,14 @@
+UPDATE forecasts SET sky = 'Overcast' WHERE starttime = '2026-08-29T03:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light shower night' WHERE starttime = '2026-08-29T04:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light shower night' WHERE starttime = '2026-08-29T05:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-08-29T06:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-08-29T07:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-08-29T09:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy shower day' WHERE starttime = '2026-08-29T13:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-08-29T14:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-08-29T15:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-08-29T16:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-08-29T17:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy shower day' WHERE starttime = '2026-08-29T18:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2026-08-29T20:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2026-08-29T21:00 Europe/London'; 
