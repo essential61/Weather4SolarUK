@@ -1,4 +1,4 @@
--- created 2026-08-29 03:13:45.431442
+-- created 2026-08-29 23:29:21.693150
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T00:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T01:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T02:00 Europe/London', 'Partly cloudy night');
@@ -6,11 +6,11 @@ INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T03:00 Europe/London',
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T04:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T05:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T06:00 Europe/London', 'Sunny intervals');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T07:00 Europe/London', 'Sunny intervals');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T08:00 Europe/London', 'Sunny intervals');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T07:00 Europe/London', 'Sunny day');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T08:00 Europe/London', 'Sunny day');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T09:00 Europe/London', 'Sunny intervals');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T10:00 Europe/London', 'Sunny intervals');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T11:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T11:00 Europe/London', 'Sunny intervals');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T12:00 Europe/London', 'Sunny intervals');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T13:00 Europe/London', 'Sunny intervals');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T14:00 Europe/London', 'Sunny intervals');
@@ -19,7 +19,7 @@ INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T16:00 Europe/London',
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T17:00 Europe/London', 'Sunny intervals');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T18:00 Europe/London', 'Sunny intervals');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T19:00 Europe/London', 'Light shower day');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T20:00 Europe/London', 'Heavy shower night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T20:00 Europe/London', 'Light shower night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T21:00 Europe/London', 'Light shower night');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T22:00 Europe/London', 'Partly cloudy night');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T23:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T22:00 Europe/London', 'Light shower night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-08-30T23:00 Europe/London', 'Light shower night');
