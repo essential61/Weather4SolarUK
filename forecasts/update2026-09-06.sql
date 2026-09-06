@@ -1,2 +1,3 @@
 UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-09-06T09:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Sunny day' WHERE starttime = '2026-09-06T11:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2026-09-06T23:00 Europe/London'; 
