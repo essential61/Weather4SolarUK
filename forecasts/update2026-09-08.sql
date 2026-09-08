@@ -1,0 +1,10 @@
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-09-08T09:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-09-08T10:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-09-08T11:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-09-08T12:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Heavy rain' WHERE starttime = '2026-09-08T13:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Light rain' WHERE starttime = '2026-09-08T14:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Sunny intervals' WHERE starttime = '2026-09-08T19:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2026-09-08T21:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2026-09-08T22:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Partly cloudy night' WHERE starttime = '2026-09-08T23:00 Europe/London'; 
