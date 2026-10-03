@@ -6,5 +6,5 @@ UPDATE forecasts SET sky = 'Light shower day' WHERE starttime = '2026-10-03T15:0
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-10-03T16:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Cloudy' WHERE starttime = '2026-10-03T17:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-10-03T21:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-10-03T22:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Fog' WHERE starttime = '2026-10-03T22:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Fog' WHERE starttime = '2026-10-03T23:00 Europe/London'; 
