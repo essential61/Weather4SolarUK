@@ -1,4 +1,4 @@
--- created 2026-10-03 00:36:18.103880
+-- created 2026-10-03 23:58:07.681770
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T00:00 Europe/London', 'Fog');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T01:00 Europe/London', 'Fog');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T02:00 Europe/London', 'Fog');
@@ -8,7 +8,7 @@ INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T05:00 Europe/London',
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T06:00 Europe/London', 'Fog');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T07:00 Europe/London', 'Fog');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T08:00 Europe/London', 'Fog');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T09:00 Europe/London', 'Fog');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T09:00 Europe/London', 'Sunny day');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T10:00 Europe/London', 'Sunny day');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T11:00 Europe/London', 'Sunny day');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-10-04T12:00 Europe/London', 'Sunny day');
