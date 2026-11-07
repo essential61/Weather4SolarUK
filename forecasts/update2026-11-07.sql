@@ -6,5 +6,5 @@ UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-11-07T18:00 Europe/Lon
 UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-11-07T19:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-11-07T20:00 Europe/London'; 
 UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-11-07T21:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-11-07T22:00 Europe/London'; 
-UPDATE forecasts SET sky = 'Fog' WHERE starttime = '2026-11-07T23:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Fog' WHERE starttime = '2026-11-07T22:00 Europe/London'; 
+UPDATE forecasts SET sky = 'Mist' WHERE starttime = '2026-11-07T23:00 Europe/London'; 
