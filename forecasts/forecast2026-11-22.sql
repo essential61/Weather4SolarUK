@@ -1,4 +1,4 @@
--- created 2026-11-21 00:12:09.699553
+-- created 2026-11-21 23:35:04.615976
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T00:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T01:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T02:00 Europe/London', 'Partly cloudy night');
@@ -15,11 +15,11 @@ INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T12:00 Europe/London',
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T13:00 Europe/London', 'Cloudy');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T14:00 Europe/London', 'Cloudy');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T15:00 Europe/London', 'Cloudy');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T16:00 Europe/London', 'Cloudy');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T17:00 Europe/London', 'Cloudy');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T16:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T17:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T18:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T19:00 Europe/London', 'Partly cloudy night');
 INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T20:00 Europe/London', 'Partly cloudy night');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T21:00 Europe/London', 'Partly cloudy night');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T22:00 Europe/London', 'Mist');
-INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T23:00 Europe/London', 'Partly cloudy night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T21:00 Europe/London', 'Clear night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T22:00 Europe/London', 'Clear night');
+INSERT INTO forecasts (starttime, sky) VALUES ('2026-11-22T23:00 Europe/London', 'Clear night');
